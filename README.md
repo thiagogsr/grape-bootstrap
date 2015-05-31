@@ -1,6 +1,8 @@
 # Grape Bootstrap
 Grape bootstrap with Rack and Mongodb
 
+[![Codeship Status for thiagogsr/grape-bootstrap](https://codeship.com/projects/010c44b0-ea02-0132-44e0-4602e60b2e9f/status?branch=master)](https://codeship.com/projects/83031)
+
 ## Instalation
 
 * Clone project
