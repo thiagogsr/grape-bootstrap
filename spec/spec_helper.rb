@@ -1,8 +1,10 @@
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start if ENV['CODECLIMATE_REPO_TOKEN']
+
 require File.expand_path('../../config/environment', __FILE__)
 require 'rspec'
 require 'rack/test'
 require 'database_cleaner'
-require 'codeclimate-test-reporter'
 
 ENV['RACK_ENV'] = 'test'
 
