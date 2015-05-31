@@ -1,0 +1,13 @@
+development:
+  sessions:
+    default:
+      database: grape_bootstrap_development
+      hosts:
+        - localhost:27017
+
+test:
+  sessions:
+    default:
+      database: grape_bootstrap_test
+      hosts:
+        - localhost:27017
