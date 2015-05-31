@@ -2,6 +2,7 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rspec'
 require 'rack/test'
 require 'database_cleaner'
+require 'codeclimate-test-reporter'
 
 ENV['RACK_ENV'] = 'test'
 

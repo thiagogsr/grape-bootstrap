@@ -16,6 +16,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     bson (2.3.0)
     builder (3.2.2)
+    codeclimate-test-reporter (0.4.7)
+      simplecov (>= 0.7.1, < 1.0.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
     connection_pool (2.2.0)
@@ -23,6 +25,7 @@ GEM
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
+    docile (1.1.5)
     equalizer (0.0.11)
     grape (0.11.0)
       activesupport
@@ -75,6 +78,11 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
+    simplecov (0.10.0)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -88,6 +96,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  codeclimate-test-reporter
   database_cleaner
   grape
   mongoid (~> 4.0.0)
