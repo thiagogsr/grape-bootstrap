@@ -7,3 +7,5 @@ addons:
     repo_token: 3cdc98bc64bf6155d31a1845b1ddc635778f800e5b6fe8406f9ca794cbce9534
 before_install: cp config/mongoid.yml.sample config/mongoid.yml
 script: bundle exec rspec spec
+services:
+  - mongodb
